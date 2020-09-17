@@ -185,3 +185,8 @@ G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\bin\Debug\netcoreap
 G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\JokeWebApplication.csproj.CoreCompileInputs.cache
 G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\JokeWebApplication.MvcApplicationPartsAssemblyInfo.cs
 G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\JokeWebApplication.MvcApplicationPartsAssemblyInfo.cache
+G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\jokes\Create.cshtml.g.cs
+G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\jokes\Delete.cshtml.g.cs
+G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\jokes\Details.cshtml.g.cs
+G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\jokes\Edit.cshtml.g.cs
+G:\._Net_JokeQuestions\JokeWebApplication\JokeWebApplication\obj\Debug\netcoreapp3.1\Razor\Views\jokes\Index.cshtml.g.cs
