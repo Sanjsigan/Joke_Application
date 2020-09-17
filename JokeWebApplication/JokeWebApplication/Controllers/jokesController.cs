@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using JokeWebApplication.Data;
 using JokeWebApplication.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace JokeWebApplication.Controllers
 {
@@ -23,6 +24,18 @@ namespace JokeWebApplication.Controllers
         public async Task<IActionResult> Index()
         {
             return View(await _context.joke.ToListAsync());
+        }
+
+        // GET: SearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
+        // post: SearchFormResult
+        public async Task<IActionResult> ShowSearchResults(String SearchPhrase)
+        {
+            return View("Index", await _context.joke.ToListAsync());
         }
 
         // GET: jokes/Details/5
@@ -44,6 +57,7 @@ namespace JokeWebApplication.Controllers
         }
 
         // GET: jokes/Create
+        [Authorize]
         public IActionResult Create()
         {
             return View();
